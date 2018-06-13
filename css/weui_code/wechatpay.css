@@ -1,0 +1,26 @@
+img {
+    margin:0 auto;
+    width: 30%;
+    display: block;
+
+}
+.page__title {
+    color: green;
+}
+
+.weui-btn {
+    /* 按钮内部，有小图标，loading */
+    width: 50%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid green;
+    box-sizing: border-box;
+    font-size: 1em;
+    text-align: center;
+    color: green;
+    line-height: 2.5555556;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
