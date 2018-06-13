@@ -89,7 +89,6 @@
     line-height: 0;
 }
 .inner-box .indicator .data {
-    transition: width 2s;
     overflow: hidden;
     width: 0%;
     position: absolute;
