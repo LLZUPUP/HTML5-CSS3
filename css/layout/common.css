@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+.left,.main,.right {
+    height: 100%;
+}
+.left {
+    width: 200px;
+    float: left;
+    background-color: red;
+}
+.right {
+    width: 100px;
+    float: right;
+    background-color: blue;
+}
+.main {
+    background-color: pink;
+    overflow: hidden;
+}
+.main .content{
+    float: left;
+    width: 25%;
+    height: 50%;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.main .content:nth-child(odd) {
+    background-color: yellow;
+}
+.main .content:last-child {
+    width: 75%;
+}
+
+
